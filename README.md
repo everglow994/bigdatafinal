@@ -15,7 +15,10 @@ File Document
 -------------
 
         We use keras library to establish a Collaborative Denoising Auto Encoder Neural Network with
-    one hidden layer, the data is     
+    one hidden layer as in net.py. The data is fed into the network using load_data() funtion in data.py 
+    We code our metric evaluation function in metric.py as apk().
+        We train our model in train.py and print the final mean average precision of case Top@1, Top@5 and Top@10
+        
      
 -----
 Usage
