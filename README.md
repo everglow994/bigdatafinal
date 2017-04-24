@@ -39,6 +39,9 @@ THEANO_FLAGS=device=gpu,floatX=float32 python train.py
 Implementation Details
 ----------------------
 
+- [x] Establish CDAE model
 - [x] Implement negative sampling
 - [x] Collaborative Filtering 
 - [x] Data Corruption
+- [x] Coding to use Mean Average Precision as evaluation metric
+- [x] Get results
