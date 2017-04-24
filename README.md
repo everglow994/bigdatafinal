@@ -17,3 +17,21 @@ File Document
         We use keras library to establish a Collaborative Denoising Auto Encoder Neural Network with
     one hidden layer, the data is     
      
+-------------
+Usage
+-------------    
+First, install libraries:
+
+```sh
+pip install -r requirements.txt
+```
+
+Then,
+
+```sh
+# CPU
+python train.py
+
+# GPU
+THEANO_FLAGS=device=gpu,floatX=float32 python train.py
+```
